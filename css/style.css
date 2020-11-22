@@ -1,0 +1,46 @@
+html, body, section {
+    height: 100%;
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body { 
+    font-family: 'Quicksand', 'sans-serif';
+    text-align: center;
+    font-size: 1rem;
+    background: url("EUsemF.jpg");
+}
+div { 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 { 
+    font-size: 3rem; 
+    padding-top: 4rem;
+    margin: 0 0 0.75rem 0;
+}
+.container {
+    display: flex;
+    padding-bottom: 50rem;
+    margin: auto;
+    font-size: 1.3rem;
+}
+ul {
+    padding-left: 280px;
+    list-style-position:inside;
+}
+ul li {
+    text-align:left;
+    justify-content: right;
+}
+.left { 
+    flex: 1;
+    padding: 5rem;
+}
+.right { 
+    flex: 1;
+    padding: 5rem;
+}
